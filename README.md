@@ -1,4 +1,5 @@
-# LogToFile
+![logtofile](https://user-images.githubusercontent.com/60233722/153992514-a22f6ce4-396b-44aa-b5d9-5f29b63711f7.PNG)
+
 This plugin logs the following actions to a text file:
 
 - Shooting item frames and armor stands with a projectile
