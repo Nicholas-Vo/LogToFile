@@ -32,6 +32,7 @@ logNametagUse: true
 # Example
 
 An example of a creeperProvoke.txt entry:
-
+```
 [2022-02-14] Creeper exploded at 42 73 -78 in "world"
 [2022-02-14] - Nearby: _NickV
+```
