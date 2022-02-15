@@ -25,6 +25,7 @@ public class Logger {
         }
     }
 
+    // TODO - add time in addition to date
     public void info(String message, String fileName) {
         try {
             File theFile = new File(dataFolder, fileName + ".txt");

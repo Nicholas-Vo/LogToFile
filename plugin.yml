@@ -1,9 +1,0 @@
-main: logToFile.LogToFile
-name: LogToFile
-version: 1.0.0
-description: Logs stuff to file
-api-version: 1.15
-Author: _NickV
-commands:
-  logtofile:
-    description: LogToFile command

@@ -29,7 +29,7 @@ public class EventHandlers implements Listener {
 
 	@EventHandler
 	public void onProjectile(ProjectileHitEvent e) {
-		if (config.getBoolean("logProjectiles")) return;
+		if (!config.getBoolean("logProjectiles")) return;
 		if (e.getHitEntity() == null) return;
 		if (!(e.getEntity().getShooter() instanceof Player shooter)) return;
 
@@ -48,7 +48,7 @@ public class EventHandlers implements Listener {
 
 	@EventHandler
 	public void onCreeperExplosion(EntityExplodeEvent e) {
-		if (config.getBoolean("logCreeperProvoke")) return;
+		if (!config.getBoolean("logCreeperProvoke")) return;
 		if (e.getEntityType() != EntityType.CREEPER) return;
 
 		var nearby = e.getEntity().getNearbyEntities(15, 5, 15)
@@ -62,7 +62,7 @@ public class EventHandlers implements Listener {
 
 	@EventHandler
 	public void onBookTake(PlayerTakeLecternBookEvent e) {
-		if (config.getBoolean("logLecternTake")) return;
+		if (!config.getBoolean("logLecternTake")) return;
 		if (e.getBook() == null) return;
 
 		BookMeta book = (BookMeta) e.getBook().getItemMeta();
@@ -79,7 +79,7 @@ public class EventHandlers implements Listener {
      */
 	@EventHandler
 	public void onHorseTake(VehicleEnterEvent e) {
-		if (config.getBoolean("logHorsemounts")) return;
+		if (!config.getBoolean("logHorsemounts")) return;
 		if (e.getVehicle() instanceof Horse) return;
 
 		String location = Utils.locationToString(e.getVehicle().getLocation());
@@ -92,7 +92,7 @@ public class EventHandlers implements Listener {
      */
 	@EventHandler
 	public void onNameTag(PlayerInteractEntityEvent e) {
-		if (config.getBoolean("logNametagUse")) return;
+		if (!config.getBoolean("logNametagUse")) return;
 
 		ItemStack mainHand = e.getPlayer().getEquipment().getItemInMainHand();
 		ItemStack offHand = e.getPlayer().getEquipment().getItemInOffHand();

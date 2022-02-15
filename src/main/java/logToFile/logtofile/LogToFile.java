@@ -10,10 +10,9 @@ public final class LogToFile extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		Bukkit.getLogger().info("Enabling LogToFile version 2.0.0...");
-		new EventHandlers(this);
-
 		logger = new Logger();
 		config = new ConfigHandler(this);
+		new EventHandlers(this);
 	}
 
 	@Override
