@@ -1,4 +1,4 @@
-![logtofile](https://user-images.githubusercontent.com/60233722/153992514-a22f6ce4-396b-44aa-b5d9-5f29b63711f7.PNG)
+![logtofile2](https://user-images.githubusercontent.com/60233722/153992586-c9af19c5-1d09-4f21-8134-ff195b881fe8.png)
 
 This plugin logs the following actions to a text file:
 
