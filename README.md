@@ -15,11 +15,11 @@ You can toggle these via the config.yml.
 
 # Obtaining the plugin
 
-You can download the plugin here on GitHub by navigating to "Releases" on the right side of your screen.
+You can download the plugin here on GitHub by navigating to "Releases"
 
 # Configuration
 
-You can disable actions which you do not wish to have logged. By default, all actions are enabled.
+You can disable actions which you do not wish to have logged. By default, all actions are enabled!
 
 ```
 logProjectiles: true
