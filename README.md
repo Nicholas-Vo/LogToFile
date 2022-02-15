@@ -11,3 +11,8 @@ This plugin logs the following actions to a text file:
 You can toggle these via config.yml.
 
 **Note:** This isn't a polished CoreProtect or Prism extension, it's a simple personal plugin I've made public for those who are interested.
+
+
+# Obtaining the plugin
+
+You can download the plugin here on GitHub by navigating to "Releases" on the right side of your screen.
