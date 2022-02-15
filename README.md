@@ -8,7 +8,7 @@ This plugin logs the following actions to a text file:
 - Mounting of horses
 - Naming of entities via nametag
 
-You can toggle these via config.yml.
+You can toggle these via the config.yml.
 
 **Note:** This isn't a polished CoreProtect or Prism extension, it's a simple personal plugin I've made public for those who are interested. The plugin does not include a config reload functionality at the moment.
 
