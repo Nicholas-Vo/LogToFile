@@ -79,7 +79,7 @@ public class EventHandlers implements Listener {
      */
 	@EventHandler
 	public void onHorseTake(VehicleEnterEvent e) {
-		if (!config.getBoolean("logHorsemounts")) return;
+		if (!config.getBoolean("logHorseMounts")) return;
 		if (e.getVehicle() instanceof Horse) return;
 
 		String location = Utils.locationToString(e.getVehicle().getLocation());
