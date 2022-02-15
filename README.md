@@ -28,7 +28,6 @@ logLecternTake: true
 logHorseMounts: true
 logNametagUse: true
 ```
-
 # Example
 
 An example of a creeperProvoke.txt entry:
