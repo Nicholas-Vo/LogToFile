@@ -10,4 +10,21 @@ This plugin logs the following actions to a text file:
 
 You can toggle these via config.yml.
 
-This isn't a polished CoreProtect or Prism extension, it's a simple personal plugin I've made public for those who are interested.
+**Note:** This isn't a polished CoreProtect or Prism extension, it's a simple personal plugin I've made public for those who are interested. The plugin does not include a config reload functionality at the moment.
+
+
+# Obtaining the plugin
+
+You can download the plugin here on GitHub by navigating to "Releases" on the right side of your screen.
+
+# Configuration
+
+You can disable actions which you do not wish to have logged. By default, all actions are enabled.
+
+```
+logProjectiles: true
+logCreeperProvoke: false
+logLecternTake: true
+logHorseMounts: true
+logNametagUse: true
+```
